@@ -1,0 +1,28 @@
+div {
+  margin-top: 350px;
+  margin-left: 550px;
+  display: inline-block;
+}
+
+div a {
+  color: rgb(0, 0, 0);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #a41623;
+}
+
+div a:hover:not(.active) {
+  background-color: #f85e00;
+  color: #fff;
+}
+
+div a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+div a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
